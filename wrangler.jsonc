@@ -1,0 +1,10 @@
+{
+  // Static-assets Worker: serves the Vite build in dist/. No server code needed.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cyper",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
