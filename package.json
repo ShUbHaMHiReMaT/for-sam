@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc -b --noEmit"
+    "typecheck": "tsc -b --noEmit",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name cyper"
   },
   "dependencies": {
     "framer-motion": "^12.43.0",
